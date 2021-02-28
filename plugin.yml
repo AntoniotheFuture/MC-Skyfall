@@ -1,0 +1,37 @@
+## YAML Template.
+---
+name: skyfall
+main: com.nonemin.game.skyfall
+version: 1.0
+api-version: 1.14
+
+commands:
+    skyfall:
+        description: (管理员可用)立即生成一场流星事件。
+        usage: /<command> 流星类型 x y z
+        permission: <plugin name>.skyfall
+        permission-message: 无权限
+
+    qskyfall:
+        description: (管理员可用)查询下次流星事件可能发生的地点与时间。
+        usage: /<command>
+        permission: <plugin name>.qskyfall
+        permission-message: 无权限
+
+    stopskyfall:
+        description: (管理员可用)停止目前正在发生的流星事件。
+        usage: /<command>
+        permission: <plugin name>.stopskyfall
+        permission-message: 无权限
+
+permissions:
+    <plugin name>.skyfall:
+        description: (管理员可用)立即生成一场流星事件。
+        default: op
+    <plugin name>.qskyfall:
+        description: (管理员可用)查询下次流星事件可能发生的地点与时间。
+        default: op
+    <plugin name>.stopskyfall:
+        description: (管理员可用)停止目前正在发生的流星事件。
+        default: op
+        
