@@ -25,3 +25,4 @@
 
 ### 编译
 - 使用IDEA进行编译
+- [已编译版本](https://github.com/AntoniotheFuture/MC-Skyfall/releases)
